@@ -37,8 +37,7 @@ print("####  ############# NetHunter ####################")
 
 print("[*] Checking device architecture ...")
 
-os.system("apt list")
-print(BLUE+"[*] Import Kali")
+print(BLUE+"[*] INSTALL KALI")
 os.system("apt update -y")
 os.system("apt upgrade -y")
 os.system("apt update")
